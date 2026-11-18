@@ -192,10 +192,16 @@ p { margin: 0; }
 .cat::before { content: ""; position: absolute; width: 150px; height: 150px; border-radius: 50%; top: -40px; right: -40px; background: radial-gradient(var(--tone), transparent 70%); opacity: .28; transition: transform .4s; }
 .cat:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: rgba(226, 199, 150, .4); }
 .cat:hover::before { transform: scale(1.25); }
-.cat svg { position: absolute; top: 18px; right: 16px; width: 64px; height: 64px; color: var(--gold-soft); }
+.cat > * { position: relative; z-index: 1; }
+.cat.has-photo { border-color: transparent; }
+.cat.has-photo img { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .8s; }
+.cat.has-photo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(14, 10, 7, .1) 30%, rgba(14, 10, 7, .85)); }
+.cat.has-photo::before { display: none; }
+.cat.has-photo:hover img { transform: scale(1.05); }
+.cat.has-photo b, .cat.has-photo small, .cat.has-photo span { z-index: 2; color: var(--ink); }
 .cat b { font-family: var(--f-display); font-size: 26px; font-weight: 400; }
 .cat span { font-size: 12px; color: var(--muted); }
-.cat small { position: absolute; top: 16px; left: 18px; font-family: var(--f-caps); font-size: 11px; letter-spacing: .2em; color: var(--muted); }
+.cat small { position: absolute !important; top: 16px; left: 18px; font-family: var(--f-caps); font-size: 11px; letter-spacing: .2em; color: var(--muted); }
 .cat:first-child { grid-column: 1 / -1; min-height: 190px; }
 
 /* ---------- Catálogo ---------- */
@@ -447,7 +453,6 @@ tbody th { font-weight: 500; color: var(--muted); }
   .sec { padding: 96px 0; }
   .cats { grid-template-columns: repeat(3, 1fr); grid-auto-rows: 200px; }
   .cat:first-child { grid-row: span 2; }
-  .cat:first-child svg { width: 110px; height: 110px; }
   .cat:first-child b { font-size: 34px; }
   .toolbar { grid-template-columns: 340px 1fr; align-items: center; }
   .toolbar .chips { margin: 0; padding: 2px 0; flex-wrap: wrap; overflow: visible; }

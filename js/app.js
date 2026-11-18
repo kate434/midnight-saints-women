@@ -109,9 +109,12 @@
   /* ---------- Categorías (bloque visual) ---------- */
   function renderCats() {
     $("#cats").innerHTML = CATS.map((c, i) => {
-      const n = PRODUCTS.filter((p) => p.categoria === c.id).length;
-      return `<button class="cat" type="button" data-cat="${esc(c.id)}" style="--tone:${c.color}">
-        <small>0${i + 1}</small>${icon("c-" + (c.icono || c.id))}
+      const items = PRODUCTS.filter((p) => p.categoria === c.id), n = items.length;
+      // Foto de la categoría: la definida en config.js o la primera foto de un producto de esa categoría
+      const foto = c.foto || (items.find((p) => p.fotos.length && !p.agotado) || items.find((p) => p.fotos.length) || { fotos: [] }).fotos[0];
+      return `<button class="cat${foto ? " has-photo" : ""}" type="button" data-cat="${esc(c.id)}" style="--tone:${c.color}">
+        ${foto ? `<img src="${esc(foto)}" alt="" loading="lazy" decoding="async">` : ""}
+        <small>0${i + 1}</small>
         <b>${esc(c.nombre)}</b><span>${n ? `${n} ${n === 1 ? "pieza" : "piezas"}` : esc(c.frase || "Muy pronto")}</span>
       </button>`;
     }).join("");
