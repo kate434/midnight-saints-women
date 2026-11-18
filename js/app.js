@@ -79,7 +79,7 @@
   function photo(src, alt, cls = "", lazy = true) {
     return src
       ? `<img src="${esc(src)}" alt="${esc(alt)}" class="${cls}" ${lazy ? 'loading="lazy"' : ""} decoding="async">`
-      : `<div class="noimg ${cls}" role="img" aria-label="Foto próximamente">${icon("i-santa")}<span>Foto próximamente</span></div>`;
+      : `<div class="noimg ${cls}" role="img" aria-label="Foto próximamente"><img src="assets/img/logo-mark.png" alt="" loading="lazy"><span>Foto próximamente</span></div>`;
   }
 
   /* ---------- Tarjeta de producto ---------- */

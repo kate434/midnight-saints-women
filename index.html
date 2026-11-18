@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Midnight Saints Women · Boutique</title>
   <meta name="description" content="Midnight Saints Women: ropa, tenis, zapatos, bolsos y accesorios para la mujer que también tiene un propósito. Envíos a Colombia y USA.">
-  <meta name="theme-color" content="#FBF7F1">
+  <meta name="theme-color" content="#15100C">
   <meta property="og:title" content="Midnight Saints Women">
   <meta property="og:description" content="Faith + Style + Women. Para la mujer que también tiene un propósito.">
   <meta property="og:image" content="assets/img/poster.jpg">
@@ -13,7 +13,7 @@
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&family=Pinyon+Script&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -68,7 +68,7 @@
   <div class="bar wrap">
     <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><svg><use href="#i-menu"/></svg></button>
     <a class="brand" href="#inicio" aria-label="Midnight Saints Women, inicio">
-      <svg class="brand-mark"><use href="#i-santa"/></svg>
+      <img class="brand-mark" src="assets/img/logo-mark.png" alt="" width="293" height="228">
       <span class="brand-text"><b>Midnight Saints</b><span class="women" aria-label="Women"><i>W</i><i>O</i><i>M</i><i>E</i><i>N</i></span></span>
     </a>
     <nav class="nav" id="menu" aria-label="Secciones">
@@ -89,20 +89,17 @@
 
   <!-- ===================== HERO ===================== -->
   <section class="hero">
-    <div class="wrap hero-grid">
+    <div class="hero-stage">
       <figure class="poster">
-        <img src="assets/img/poster.jpg" alt="Póster de Midnight Saints Women: la Santa con velo de encaje y halo dorado entre rosas blancas, con el logo de la marca y el lema Para la mujer que también tiene un propósito" width="1024" height="1536" fetchpriority="high">
+        <img src="assets/img/poster.jpg" alt="Midnight Saints Women. Faith + Style + Women. More than clothes, it’s a lifestyle. La Santa con velo de encaje y halo dorado entre rosas blancas. Para la mujer que también tiene un propósito. Ropa exclusiva, estilo único, calidad premium, envíos a Colombia y USA." width="1024" height="1536" fetchpriority="high">
+        <a class="poster-shop" href="#catalogo" aria-label="Shop now: ir al catálogo"></a>
       </figure>
-      <div class="hero-copy">
-        <h1 class="sr">Midnight Saints Women</h1>
-        <p class="eyebrow">Faith <i>+</i> Style <i>+</i> Women</p>
-        <p class="hero-title">More than clothes…<br><em>it’s a lifestyle.</em></p>
-        <div class="divider"><svg><use href="#i-spark"/></svg></div>
-        <p class="hero-text">Para la mujer que camina con fe, se viste con intención y no le pide permiso a nadie para brillar. Ropa, tenis, zapatos, bolsos y accesorios elegidos pensando en ti.</p>
-        <div class="hero-cta">
-          <a class="btn primary" href="#catalogo">Shop now</a>
-          <a class="btn ghost" href="#encargos">Hacer un encargo</a>
-        </div>
+    </div>
+    <div class="wrap hero-copy">
+      <h1 class="sr">Midnight Saints Women</h1>
+      <div class="hero-cta">
+        <a class="btn primary" href="#catalogo">Shop now</a>
+        <a class="btn ghost" href="#encargos">Hacer un encargo</a>
       </div>
     </div>
   </section>
@@ -160,7 +157,7 @@
       <div class="grid" id="grid" aria-live="polite"></div>
 
       <div class="empty" id="emptyStore" hidden>
-        <svg class="empty-mark"><use href="#i-santa"/></svg>
+        <img class="empty-mark" src="assets/img/logo.png" alt="" width="332" height="383" loading="lazy">
         <h3>Nuestra colección está en camino</h3>
         <p>Muy pronto verás aquí las primeras piezas de Midnight Saints Women. Mientras tanto, cuéntanos qué estás buscando y te lo conseguimos.</p>
         <div class="hero-cta center">
@@ -251,10 +248,7 @@
 <footer class="foot">
   <div class="wrap foot-grid">
     <div>
-      <a class="brand light" href="#inicio">
-        <svg class="brand-mark"><use href="#i-santa"/></svg>
-        <span class="brand-text"><b>Midnight Saints</b><span class="women"><i>W</i><i>O</i><i>M</i><i>E</i><i>N</i></span></span>
-      </a>
+      <a class="foot-logo" href="#inicio"><img src="assets/img/logo.png" alt="Midnight Saints Women" width="332" height="383" loading="lazy"></a>
       <p class="script light">Para la mujer que también tiene un propósito.</p>
     </div>
     <nav aria-label="Pie de página">

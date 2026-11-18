@@ -14,7 +14,7 @@ css/styles.css        ← diseño: paleta, tipografías, responsive
 js/config.js          ← ✏️ WhatsApp, redes, moneda, envío gratis, categorías, marcas, FAQ
 js/productos.js       ← ✏️ catálogo de productos
 js/app.js             ← lógica (catálogo, filtros, ficha, bolsa, pedidos)
-assets/img/           ← imágenes de marca (la Santa, póster, favicon)
+assets/img/           ← póster, logo (logo.png y logo-mark.png) y favicon
 assets/productos/     ← ✏️ aquí van las fotos de tus productos
 ```
 
@@ -75,7 +75,7 @@ El archivo `.nojekyll` ya está incluido para que GitHub sirva los archivos tal 
 
 ## Funciones
 
-- Inicio con la Santa como protagonista, lema y valores de marca.
+- Inicio con el póster completo de la Santa (lema, logo y valores de marca).
 - Categorías: Ropa, Tenis, Zapatos, Bolsos y Accesorios.
 - Catálogo con buscador, filtros por categoría, marca, talla, favoritos y orden por precio o novedad.
 - Ficha de producto con galería deslizable, tallas (con tallas agotadas), colores, guía de tallas, compartir y “Combínalo con”.
