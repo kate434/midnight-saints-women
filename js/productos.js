@@ -52,7 +52,7 @@ window.PRODUCTOS = [
     marca: "Nike",
     categoria: "ropa",
     precio: null,
-    fotos: ["assets/productos/nike-zenvy-bra-tank-negro.jpg"],
+    fotos: ["assets/productos/nike-zenvy-bra-tank-ib9872-010-1.jpg", "assets/productos/nike-zenvy-bra-tank-ib9872-010-2.jpg", "assets/productos/nike-zenvy-bra-tank-ib9872-010-3.jpg", "assets/productos/nike-zenvy-bra-tank-ib9872-010-4.jpg"],
     tallas: ["M"],
     colores: ["Negro"],
     descripcion: "Top deportivo largo de soporte ligero para mujer. Comprado en tienda oficial Nike. Referencia: IB9872-010.",
@@ -102,13 +102,15 @@ window.PRODUCTOS = [
   },
   {
     id: "jordan-track-jacket-im6841-489",
-    nombre: "Chaqueta deportiva Jordan",
+    nombre: "Chaqueta deportiva Jordan Brooklyn",
     marca: "Jordan",
     categoria: "ropa",
     precio: null,
-    fotos: [],
+    fotos: ["assets/productos/jordan-brooklyn-track-jacket-im6841-489-1.jpg", "assets/productos/jordan-brooklyn-track-jacket-im6841-489-2.jpg", "assets/productos/jordan-brooklyn-track-jacket-im6841-489-3.jpg", "assets/productos/jordan-brooklyn-track-jacket-im6841-489-4.jpg"],
     tallas: ["XL"],
-    descripcion: "Chaqueta deportiva (track jacket) Jordan para mujer. Comprado en tienda oficial Nike. Referencia: IM6841-489."
+    colores: ["Azul"],
+    descripcion: "Chaqueta deportiva (track jacket) Jordan para mujer. Comprado en tienda oficial Nike. Referencia: IM6841-489.",
+    nuevo: true
   },
   {
     id: "nike-indy-high-support-bra-fd1068-410",
@@ -116,9 +118,11 @@ window.PRODUCTOS = [
     marca: "Nike",
     categoria: "ropa",
     precio: null,
-    fotos: [],
+    fotos: ["assets/productos/nike-indy-high-support-fd1068-410-1.jpg", "assets/productos/nike-indy-high-support-fd1068-410-2.jpg", "assets/productos/nike-indy-high-support-fd1068-410-3.jpg", "assets/productos/nike-indy-high-support-fd1068-410-4.jpg"],
     tallas: ["XS"],
-    descripcion: "Brasier deportivo Dri-FIT de alto soporte para mujer. Comprado en tienda oficial Nike. Referencia: FD1068-410."
+    colores: ["Azul marino"],
+    descripcion: "Brasier deportivo Dri-FIT de alto soporte para mujer. Comprado en tienda oficial Nike. Referencia: FD1068-410.",
+    nuevo: true
   },
   {
     id: "nike-indy-light-support-bra-fd1062-621",
@@ -136,9 +140,11 @@ window.PRODUCTOS = [
     marca: "Nike",
     categoria: "ropa",
     precio: null,
-    fotos: [],
+    fotos: ["assets/productos/nike-universa-bra-tank-if0950-438-1.jpg", "assets/productos/nike-universa-bra-tank-if0950-438-2.jpg", "assets/productos/nike-universa-bra-tank-if0950-438-3.jpg", "assets/productos/nike-universa-bra-tank-if0950-438-4.jpg"],
     tallas: ["XS"],
-    descripcion: "Top deportivo largo Dri-FIT de soporte medio para mujer. Comprado en tienda oficial Nike. Referencia: IF0950-438."
+    colores: ["Azul pizarra"],
+    descripcion: "Top deportivo largo Dri-FIT de soporte medio para mujer. Comprado en tienda oficial Nike. Referencia: IF0950-438.",
+    nuevo: true
   },
   {
     id: "nike-one-bra-iu1364-010",
@@ -166,9 +172,11 @@ window.PRODUCTOS = [
     marca: "Nike",
     categoria: "tenis",
     precio: null,
-    fotos: [],
+    fotos: ["assets/productos/nike-vomero-plus-hv8154-109-1.jpg", "assets/productos/nike-vomero-plus-hv8154-109-2.jpg", "assets/productos/nike-vomero-plus-hv8154-109-3.jpg", "assets/productos/nike-vomero-plus-hv8154-109-4.jpg"],
     tallas: ["9.5"],
-    descripcion: "Tenis de running para mujer. Talla US. Comprado en tienda oficial Nike. Referencia: HV8154-109."
+    colores: ["Crema y dorado"],
+    descripcion: "Tenis de running para mujer. Talla US. Comprado en tienda oficial Nike. Referencia: HV8154-109.",
+    nuevo: true
   },
   {
     id: "nike-v5-rnr-iq0276-030",
@@ -176,29 +184,35 @@ window.PRODUCTOS = [
     marca: "Nike",
     categoria: "tenis",
     precio: null,
-    fotos: [],
+    fotos: ["assets/productos/nike-v5-rnr-iq0276-030-1.jpg", "assets/productos/nike-v5-rnr-iq0276-030-2.jpg", "assets/productos/nike-v5-rnr-iq0276-030-3.jpg", "assets/productos/nike-v5-rnr-iq0276-030-4.jpg"],
     tallas: ["8.5"],
-    descripcion: "Tenis de estilo casual para mujer. Talla US. Comprado en tienda oficial Nike. Referencia: IQ0276-030."
+    colores: ["Blanco hueso y plateado"],
+    descripcion: "Tenis de estilo casual para mujer. Talla US. Comprado en tienda oficial Nike. Referencia: IQ0276-030.",
+    nuevo: true
   },
   {
     id: "nike-club-cap-fv5563-019",
-    nombre: "Gorra Nike Club · ref. FV5563-019",
+    nombre: "Gorra Nike Club estructurada · lila",
     marca: "Nike",
     categoria: "accesorios",
     precio: null,
-    fotos: [],
+    fotos: ["assets/productos/nike-club-cap-fv5563-019-1.jpg", "assets/productos/nike-club-cap-fv5563-019-2.jpg", "assets/productos/nike-club-cap-fv5563-019-3.jpg", "assets/productos/nike-club-cap-fv5563-019-4.jpg"],
     tallas: ["L/XL"],
-    descripcion: "Gorra unisex Nike Club. Comprado en tienda oficial Nike. Referencia: FV5563-019."
+    colores: ["Lila claro"],
+    descripcion: "Gorra unisex Nike Club. Comprado en tienda oficial Nike. Referencia: FV5563-019.",
+    nuevo: true
   },
   {
     id: "nike-club-cap-fv5563-068",
-    nombre: "Gorra Nike Club · ref. FV5563-068",
+    nombre: "Gorra Nike Club estructurada · gris",
     marca: "Nike",
     categoria: "accesorios",
     precio: null,
-    fotos: [],
+    fotos: ["assets/productos/nike-club-cap-fv5563-068-1.jpg", "assets/productos/nike-club-cap-fv5563-068-2.jpg", "assets/productos/nike-club-cap-fv5563-068-3.jpg", "assets/productos/nike-club-cap-fv5563-068-4.jpg"],
     tallas: ["S/M"],
-    descripcion: "Gorra unisex Nike Club. Comprado en tienda oficial Nike. Referencia: FV5563-068."
+    colores: ["Gris"],
+    descripcion: "Gorra unisex Nike Club. Comprado en tienda oficial Nike. Referencia: FV5563-068.",
+    nuevo: true
   },
   {
     id: "nike-dri-fit-club-cap-fb5625-690",
@@ -206,9 +220,11 @@ window.PRODUCTOS = [
     marca: "Nike",
     categoria: "accesorios",
     precio: null,
-    fotos: [],
+    fotos: ["assets/productos/nike-dri-fit-club-cap-fb5625-690-1.jpg", "assets/productos/nike-dri-fit-club-cap-fb5625-690-2.jpg"],
     tallas: ["L/XL"],
-    descripcion: "Gorra unisex Dri-FIT. Comprado en tienda oficial Nike. Referencia: FB5625-690."
+    colores: ["Rosado"],
+    descripcion: "Gorra unisex Dri-FIT. Comprado en tienda oficial Nike. Referencia: FB5625-690.",
+    nuevo: true
   },
   {
     id: "nike-dri-fit-adv-club-cap-fb5636-100",
@@ -216,8 +232,10 @@ window.PRODUCTOS = [
     marca: "Nike",
     categoria: "accesorios",
     precio: null,
-    fotos: [],
+    fotos: ["assets/productos/nike-dri-fit-adv-club-cap-fb5636-100-1.jpg", "assets/productos/nike-dri-fit-adv-club-cap-fb5636-100-2.jpg", "assets/productos/nike-dri-fit-adv-club-cap-fb5636-100-3.jpg"],
     tallas: ["L/XL"],
-    descripcion: "Gorra unisex Dri-FIT ADV. Comprado en tienda oficial Nike. Referencia: FB5636-100."
+    colores: ["Blanco"],
+    descripcion: "Gorra unisex Dri-FIT ADV. Comprado en tienda oficial Nike. Referencia: FB5636-100.",
+    nuevo: true
   }
 ];
