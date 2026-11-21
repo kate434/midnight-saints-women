@@ -85,3 +85,10 @@ El archivo `.nojekyll` ya está incluido para que GitHub sirva los archivos tal 
 - Favoritos y “Vistos recientemente”.
 - Encargos personalizados por WhatsApp y preguntas frecuentes editables.
 - Diseño adaptable (prioridad celular), accesible con teclado y lector de pantalla.
+
+## Cómo calcular precios
+
+- **Dólar fijo para costos: $3.400** (en `js/config.js`, campo `dolarCostos`). Se usa siempre ese valor, aunque el dólar oficial esté más bajo, para no tener pérdidas.
+- **Costo** = precio pagado en USD × 3.400 + envío a Colombia.
+- **Productos que también vende Nike/Adidas/Coach Colombia:** precio entre 10% y 15% por debajo del precio regular de la tienda oficial en Colombia, siempre que quede ganancia.
+- **Productos que no se venden en Colombia:** costo + 35%.

@@ -22,6 +22,12 @@ window.TIENDA = {
      Los precios de js/productos.js se escriben en esta moneda. */
   moneda: { codigo: "COP", locale: "es-CO" },
 
+  /* ---------- DÓLAR PARA CALCULAR COSTOS ----------
+     Valor fijo del dólar que usamos para calcular el costo de lo que se
+     compra en USA y fijar precios sin pérdidas. Se mantiene en 3.400
+     aunque el dólar oficial esté más bajo, como colchón de seguridad. */
+  dolarCostos: 3400,
+
   /* ---------- ENVÍO GRATIS ----------
      Monto mínimo para envío gratis (en la moneda de arriba).
      Déjalo en null si no ofreces envío gratis: la barra de progreso se oculta. */
